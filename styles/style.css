@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+h1 {
+  font-size: 5rem;
+  color: coral;
+  margin: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+  z-index: -2;
+  position: absolute;
+  top: -12%;
+  left: 5%;
+}
+
+h3 {
+  font-size: 2.5rem;
+  color: darkblue;
+}
+
+p {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+  color: rgba(127, 121, 121, 0.544);
+}
+
+.box-container {
+  margin: 5rem;
+  margin: auto;
+  border: none;
+  padding: 2rem 3rem;
+  display: inline-block;
+}
+
+.box {
+  max-width: 15rem;
+  min-width: 30rem;
+  padding: 2.5rem 3rem;
+  background-color: lightblue;
+  border-radius: 1rem;
+}
+
+.outerbox {
+  background: rgba(255, 255, 255, 0);
+  border: solid 0.2rem #01d4f9;
+  border-radius: 1rem;
+  position: relative;
+  overflow: visible;
+}
+
+.one {
+  min-height: 100vh;
+}
+
+.two {
+  min-height: 100vh;
+}
+
+.three {
+  min-height: 100vh;
+}
+
+.one {
+  min-height: 100vh;
+}
+
+.two {
+  min-height: 100vh;
+}
+
+.three {
+  min-height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
