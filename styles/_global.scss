@@ -34,7 +34,7 @@ p {
 .box-container {
   margin: 5rem;
   margin: auto;
-  border: none;
+
   padding: 2rem 3rem;
   display: inline-block;
 }
@@ -45,6 +45,7 @@ p {
   padding: 2.5rem 3rem;
   background-color: $background-color;
   border-radius: 1rem;
+  position: relative;
 }
 
 .outerbox {
@@ -52,8 +53,7 @@ p {
   border: solid 0.2rem #01d4f9;
   border-radius: 1rem;
 
-  position: relative;
-  overflow: visible;
+  position: absolute;
 }
 
 .one {

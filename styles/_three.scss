@@ -1,3 +1,18 @@
 .three {
   min-height: 100vh;
 }
+.box-container3 {
+  margin: 5rem;
+  padding: 2rem 3rem;
+  border: 10px solid;
+  border-color: black;
+  @include flex(space-around, center, row);
+}
+.outerbox3 {
+  background: rgba(255, 255, 255, 0);
+  border: solid 0.2rem #01d4f9;
+  border-radius: 1rem;
+  display: inline-block;
+  overflow: visible;
+  margin: 3rem;
+}

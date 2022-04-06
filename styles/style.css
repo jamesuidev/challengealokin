@@ -37,7 +37,6 @@ p {
 .box-container {
   margin: 5rem;
   margin: auto;
-  border: none;
   padding: 2rem 3rem;
   display: inline-block;
 }
@@ -48,37 +47,89 @@ p {
   padding: 2.5rem 3rem;
   background-color: lightblue;
   border-radius: 1rem;
+  position: relative;
 }
 
 .outerbox {
   background: rgba(255, 255, 255, 0);
   border: solid 0.2rem #01d4f9;
   border-radius: 1rem;
-  position: relative;
+  position: absolute;
+}
+
+.one {
+  min-height: 100vh;
+}
+
+.two {
+  min-height: 100vh;
+}
+
+.three {
+  min-height: 100vh;
+}
+
+.one {
+  min-height: 100vh;
+}
+
+.two {
+  min-height: 100vh;
+}
+
+.two h2 {
+  -webkit-animation: number 2s ease infinite;
+          animation: number 2s ease infinite;
+}
+
+@-webkit-keyframes number {
+  from {
+    -webkit-transform: translateY(-5%);
+            transform: translateY(-5%);
+  }
+  to {
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+  }
+}
+
+@keyframes number {
+  from {
+    -webkit-transform: translateY(-5%);
+            transform: translateY(-5%);
+  }
+  to {
+    -webkit-transform: translateY(20%);
+            transform: translateY(20%);
+  }
+}
+
+.three {
+  min-height: 100vh;
+}
+
+.box-container3 {
+  margin: 5rem;
+  padding: 2rem 3rem;
+  border: 10px solid;
+  border-color: black;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.outerbox3 {
+  background: rgba(255, 255, 255, 0);
+  border: solid 0.2rem #01d4f9;
+  border-radius: 1rem;
+  display: inline-block;
   overflow: visible;
-}
-
-.one {
-  min-height: 100vh;
-}
-
-.two {
-  min-height: 100vh;
-}
-
-.three {
-  min-height: 100vh;
-}
-
-.one {
-  min-height: 100vh;
-}
-
-.two {
-  min-height: 100vh;
-}
-
-.three {
-  min-height: 100vh;
+  margin: 3rem;
 }
 /*# sourceMappingURL=style.css.map */

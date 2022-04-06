@@ -1,3 +1,15 @@
 .two {
   min-height: 100vh;
 }
+.two h2 {
+  animation: number 2s ease infinite;
+}
+
+@keyframes number {
+  from {
+    transform: translateY(-5%);
+  }
+  to {
+    transform: translateY(20%);
+  }
+}
